@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColumnPool : MonoBehaviour
 {
-    public int columnPoolSize = 5;
+    public int columnPoolSize = 6;
     public GameObject columnPrefab;
     public float spawnRate = 4f;
     public float columnMin = -1f;
