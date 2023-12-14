@@ -10,7 +10,6 @@ public class GameControl: MonoBehaviour
 {
     public static GameControl instance;
     public GameObject gameOverText;
-    public Text scoreText;
     public TextMeshProUGUI ScoreText;
  
     public bool gameOver = false;
@@ -44,7 +43,7 @@ public class GameControl: MonoBehaviour
             return;
         }
         score++;
-        scoreText.text = "Score; " + score.ToString();
+        ScoreText.text = "Score: " + score.ToString();
     }
     public void BirdDied()
     {
