@@ -1457,6 +1457,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 76940309}
   ScoreText: {fileID: 1099670466}
+  flySound: {fileID: 8300000, guid: 52f2a6e2da14f4e4eab9422958677691, type: 3}
+  scoreSound: {fileID: 8300000, guid: 970bcad0baa755b48b3cba525ba3d1b6, type: 3}
+  deathSound: {fileID: 8300000, guid: ca4607eca3f1a2840aea1339465275cf, type: 3}
   gameOver: 0
   scrollSpeed: -1.5
 --- !u!4 &1495331554
@@ -1489,8 +1492,8 @@ MonoBehaviour:
   columnPoolSize: 5
   columnPrefab: {fileID: 3345434081644643052, guid: f5e4de88d59ea82469cdcaf885660e94, type: 3}
   spawnRate: 4
-  columnMin: -1
-  columnMax: 3.5
+  columnMin: -2
+  columnMax: 2
 --- !u!1 &2086001082
 GameObject:
   m_ObjectHideFlags: 0
